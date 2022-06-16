@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char** argv) {
+	
+	int a = 0, b = 0, suma;
+	
+	cout <<"Escriba el valor de a: ";
+	cin>>a;
+	
+	cout <<"Escriba el valor de b: ";
+	cin>>b;
+	
+	cout<<endl;
+	
+	suma = a + b;
+	
+	cout <<"La suma de a + b es = "<<suma<<endl;
+	
+	return 0;
+}
